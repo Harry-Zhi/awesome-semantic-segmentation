@@ -19,6 +19,7 @@
 	+ https://github.com/orobix/retina-unet [Keras]
 	+ https://github.com/masahi/nnvm-vision-demo/blob/master/unet_segmentation.py [onnx+nnvm]
 	+ https://github.com/qureai/ultrasound-nerve-segmentation-using-torchnet [Torch]
+	+ https://github.com/ternaus/TernausNet [PyTorch]
 - SegNet [https://arxiv.org/pdf/1511.00561.pdf]
 	+ https://github.com/alexgkendall/caffe-segnet [Caffe]
 	+ https://github.com/developmentseed/caffe/tree/segnet-multi-gpu [Caffe]
@@ -61,8 +62,9 @@
 	+ https://github.com/muyang0320/tf-fcn [Tensorflow]
 	+ https://github.com/ycszen/pytorch-seg [PyTorch]
 	+ https://github.com/Kaixhin/FCN-semantic-segmentation [PyTorch]
-        + https://github.com/petrama/VGGSegmentation [Tensorflow]
+	+ https://github.com/petrama/VGGSegmentation [Tensorflow]
 	+ https://github.com/simonguist/testing-fcn-for-cityscapes [Caffe]
+	+ https://github.com/hellochick/semantic-segmentation-tensorflow [Tensorflow]
 - ENet [https://arxiv.org/pdf/1606.02147.pdf]
  	+ https://github.com/TimoSaemann/ENet [Caffe]
 	+ https://github.com/e-lab/ENet-training [Torch]
@@ -82,6 +84,7 @@
 - ICNet [https://arxiv.org/pdf/1704.08545.pdf]
 	+ https://github.com/hszhao/ICNet [Caffe]
 	+ https://github.com/ai-tor/Keras-ICNet [Keras]
+	+ https://github.com/hellochick/ICNet-tensorflow [Tensorflow]
 - ERFNet [http://www.robesafe.uah.es/personal/eduardo.romera/pdfs/Romera17iv.pdf]
 	+ https://github.com/Eromera/erfnet [Torch]
 - RefineNet [https://arxiv.org/pdf/1611.06612.pdf]
@@ -92,6 +95,8 @@
 	+ https://github.com/mitmul/chainer-pspnet [Chainer]
 	+ https://github.com/Vladkryvoruchko/PSPNet-Keras-tensorflow [Keras/Tensorflow]
 	+ https://github.com/pudae/tensorflow-pspnet [Tensorflow]
+	+ https://github.com/hellochick/PSPNet-tensorflow [Tensorflow]
+	+ https://github.com/hellochick/semantic-segmentation-tensorflow [Tensorflow]
 - Dilated convolution [https://arxiv.org/pdf/1511.07122.pdf]
 	+ https://github.com/fyu/dilation [Caffe]
 	+ https://github.com/fyu/drn#semantic-image-segmentataion [PyTorch]
@@ -117,6 +122,12 @@
 	+ https://github.com/aharley/segaware [Caffe]
 - Semantic Segmentation using Adversarial Networks [https://arxiv.org/pdf/1611.08408.pdf]
 	+ https://github.com/oyam/Semantic-Segmentation-using-Adversarial-Networks [Chainer]
+- PixelDCN [https://arxiv.org/pdf/1705.06820.pdf]
+	+ https://github.com/HongyangGao/PixelDCN [Tensorflow]
+- ShuffleSeg [https://arxiv.org/pdf/1803.03816.pdf]
+	+ https://github.com/MSiam/TFSegmentation [TensorFlow]
+- AdaptSegNet [https://arxiv.org/pdf/1802.10349.pdf]
+	+ https://github.com/wasidennis/AdaptSegNet [PyTorch]
 	
 ### Instance aware segmentation
 - FCIS [https://arxiv.org/pdf/1611.07709.pdf]
@@ -159,7 +170,21 @@
   + https://github.com/sadeepj/crfasrnn_keras [Keras]
  
 ## GANS
-https://github.com/NVIDIA/pix2pixHD
++ https://github.com/NVIDIA/pix2pixHD
+
+## Graphical Models (CRF, MRF)
+  + https://github.com/cvlab-epfl/densecrf
+  + http://vladlen.info/publications/efficient-inference-in-fully-connected-crfs-with-gaussian-edge-potentials/
+  + http://www.philkr.net/home/densecrf
+  + http://graphics.stanford.edu/projects/densecrf/
+  + https://github.com/amiltonwong/segmentation/blob/master/segmentation.ipynb
+  + https://github.com/jliemansifry/super-simple-semantic-segmentation
+  + http://users.cecs.anu.edu.au/~jdomke/JGMT/
+  + https://www.quora.com/How-can-one-train-and-test-conditional-random-field-CRF-in-Python-on-our-own-training-testing-dataset
+  + https://github.com/tpeng/python-crfsuite
+  + https://github.com/chokkan/crfsuite
+  + https://sites.google.com/site/zeppethefake/semantic-segmentation-crf-baseline
+  + https://github.com/lucasb-eyer/pydensecrf
 
 ## Datasets:
 
@@ -184,6 +209,24 @@ https://github.com/NVIDIA/pix2pixHD
   + [INRIA Annotations for Graz-02 (IG02)](https://lear.inrialpes.fr/people/marszalek/data/ig02/)
   + [Pratheepan Dataset](http://cs-chan.com/downloads_skin_dataset.html)
   + [Clothing Co-Parsing (CCP) Dataset](https://github.com/bearpaw/clothing-co-parsing)
+  + [Inria Aerial Image](https://project.inria.fr/aerialimagelabeling/)
+  + [ApolloScape](http://apolloscape.auto/scene.html)
+
+## Benchmarks
+  + https://github.com/ZijunDeng/pytorch-semantic-segmentation [PyTorch]
+  + https://github.com/meetshah1995/pytorch-semseg [PyTorch]
+  + https://github.com/GeorgeSeif/Semantic-Segmentation-Suite [Tensorflow]
+  + https://github.com/MSiam/TFSegmentation [Tensorflow]
+  + https://github.com/CSAILVision/sceneparsing [Caffe+Matlab]
+
+## Annotation Tools:
+
+  + https://github.com/AKSHAYUBHAT/ImageSegmentation
+  + https://github.com/kyamagu/js-segment-annotator
+  + https://github.com/CSAILVision/LabelMeAnnotationTool
+  + https://github.com/seanbell/opensurfaces-segmentation-ui
+  + https://github.com/lzx1413/labelImgPlus
+  + https://github.com/wkentaro/labelme
 
 ## Results:
 
@@ -194,6 +237,86 @@ https://github.com/NVIDIA/pix2pixHD
 ## Metrics
   + https://github.com/martinkersner/py_img_seg_eval
   
+## Other lists
+  + https://github.com/tangzhenyu/SemanticSegmentation_DL
+  + https://github.com/nightrome/really-awesome-semantic-segmentation
+  
+## Medical image segmentation:
+
+- DIGITS
+  + https://github.com/NVIDIA/DIGITS/tree/master/examples/medical-imaging
+  
+- U-Net: Convolutional Networks for Biomedical Image Segmentation
+  + http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
+  + https://github.com/dmlc/mxnet/issues/1514
+  + https://github.com/orobix/retina-unet
+  + https://github.com/fvisin/reseg
+  + https://github.com/yulequan/melanoma-recognition
+  + http://www.andrewjanowczyk.com/use-case-1-nuclei-segmentation/
+  + https://github.com/junyanz/MCILBoost
+  + https://github.com/imlab-uiip/lung-segmentation-2d
+  + https://github.com/scottykwok/cervix-roi-segmentation-by-unet
+  + https://github.com/WeidiXie/cell_counting_v2
+  + https://github.com/yandexdataschool/YSDA_deeplearning17/blob/master/Seminar6/Seminar%206%20-%20segmentation.ipynb
+  
+- Cascaded-FCN
+  + https://github.com/IBBM/Cascaded-FCN
+  
+- Keras
+  + https://github.com/jocicmarko/ultrasound-nerve-segmentation
+  + https://github.com/EdwardTyantov/ultrasound-nerve-segmentation
+  + https://github.com/intact-project/ild-cnn
+  + https://github.com/scottykwok/cervix-roi-segmentation-by-unet
+  + https://github.com/lishen/end2end-all-conv
+  
+- Tensorflow
+  + https://github.com/imatge-upc/liverseg-2017-nipsws
+  
+- Using Convolutional Neural Networks (CNN) for Semantic Segmentation of Breast Cancer Lesions (BRCA)
+  + https://github.com/ecobost/cnn4brca
+  
+- Papers:
+  + https://www2.warwick.ac.uk/fac/sci/dcs/people/research/csrkbb/tmi2016_ks.pdf
+  + Sliding window approach
+	  - http://people.idsia.ch/~juergen/nips2012.pdf
+  + https://github.com/albarqouni/Deep-Learning-for-Medical-Applications#segmentation
+	  
+ - Data:
+   - https://luna16.grand-challenge.org/
+   - https://camelyon16.grand-challenge.org/
+   - https://github.com/beamandrew/medical-data
+  
+## Satellite images segmentation
+
+  + https://github.com/mshivaprakash/sat-seg-thesis
+  + https://github.com/KGPML/Hyperspectral
+  + https://github.com/lopuhin/kaggle-dstl
+  + https://github.com/mitmul/ssai
+  + https://github.com/mitmul/ssai-cnn
+  + https://github.com/azavea/raster-vision
+  + https://github.com/nshaud/DeepNetsForEO
+  + https://github.com/trailbehind/DeepOSM
+  
+ - Data:
+  	+ https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-
+	+ SpaceNet[https://spacenetchallenge.github.io/]
+
+## Video segmentation
+
+  + https://github.com/shelhamer/clockwork-fcn
+  + https://github.com/JingchunCheng/Seg-with-SPN
+
+## Autonomous driving
+
+  + https://github.com/MarvinTeichmann/MultiNet
+  + https://github.com/MarvinTeichmann/KittiSeg
+  + https://github.com/vxy10/p5_VehicleDetection_Unet [Keras]
+  + https://github.com/ndrplz/self-driving-car
+  + https://github.com/mvirgo/MLND-Capstone
+  + https://github.com/zhujun98/semantic_segmentation/tree/master/fcn8s_road
+
+### Other
+
 ## Networks by framework (Older list)
 - Keras
 	+ https://github.com/gakarak/FCN_MSCOCO_Food_Segmentation
@@ -239,108 +362,12 @@ https://github.com/NVIDIA/pix2pixHD
   + https://github.com/NVIDIA/DIGITS/tree/master/examples/semantic-segmentation
   + http://jamie.shotton.org/work/code.html 
   + https://github.com/amueller/textonboost
-
-## Graphical Models (CRF, MRF)
-  + https://github.com/cvlab-epfl/densecrf
-  + http://vladlen.info/publications/efficient-inference-in-fully-connected-crfs-with-gaussian-edge-potentials/
-  + http://www.philkr.net/home/densecrf
-  + http://graphics.stanford.edu/projects/densecrf/
-  + https://github.com/amiltonwong/segmentation/blob/master/segmentation.ipynb
-  + https://github.com/jliemansifry/super-simple-semantic-segmentation
-  + http://users.cecs.anu.edu.au/~jdomke/JGMT/
-  + https://www.quora.com/How-can-one-train-and-test-conditional-random-field-CRF-in-Python-on-our-own-training-testing-dataset
-  + https://github.com/tpeng/python-crfsuite
-  + https://github.com/chokkan/crfsuite
-  + https://sites.google.com/site/zeppethefake/semantic-segmentation-crf-baseline
-  + https://github.com/lucasb-eyer/pydensecrf
-
-## Medical image segmentation:
-
-- DIGITS
-  + https://github.com/NVIDIA/DIGITS/tree/master/examples/medical-imaging
   
-- U-Net: Convolutional Networks for Biomedical Image Segmentation
-  + http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
-  + https://github.com/dmlc/mxnet/issues/1514
-  + https://github.com/orobix/retina-unet
-  + https://github.com/fvisin/reseg
-  + https://github.com/yulequan/melanoma-recognition
-  + http://www.andrewjanowczyk.com/use-case-1-nuclei-segmentation/
-  + https://github.com/junyanz/MCILBoost
-  + https://github.com/imlab-uiip/lung-segmentation-2d
-  + https://github.com/scottykwok/cervix-roi-segmentation-by-unet
-  + https://github.com/WeidiXie/cell_counting_v2
-  + https://github.com/yandexdataschool/YSDA_deeplearning17/blob/master/Seminar6/Seminar%206%20-%20segmentation.ipynb
-  
-- Cascaded-FCN
-  + https://github.com/IBBM/Cascaded-FCN
-  
-- Keras
-  + https://github.com/jocicmarko/ultrasound-nerve-segmentation
-  + https://github.com/EdwardTyantov/ultrasound-nerve-segmentation
-  + https://github.com/intact-project/ild-cnn
-  + https://github.com/scottykwok/cervix-roi-segmentation-by-unet
-  
-- Using Convolutional Neural Networks (CNN) for Semantic Segmentation of Breast Cancer Lesions (BRCA)
-  + https://github.com/ecobost/cnn4brca
-  
-- Papers:
-  + https://www2.warwick.ac.uk/fac/sci/dcs/people/research/csrkbb/tmi2016_ks.pdf
-  + Sliding window approach
-	  - http://people.idsia.ch/~juergen/nips2012.pdf
-  + https://github.com/albarqouni/Deep-Learning-for-Medical-Applications#segmentation
-	  
- - Data:
-   - https://luna16.grand-challenge.org/
-   - https://camelyon16.grand-challenge.org/
-   - https://github.com/beamandrew/medical-data
-  
-## Satellite images segmentation
-
-  + https://github.com/mshivaprakash/sat-seg-thesis
-  + https://github.com/KGPML/Hyperspectral
-  + https://github.com/lopuhin/kaggle-dstl
-  + https://github.com/mitmul/ssai
-  + https://github.com/mitmul/ssai-cnn
-  + https://github.com/azavea/raster-vision
-  + https://github.com/nshaud/DeepNetsForEO
-  + https://github.com/trailbehind/DeepOSM
-  
- - Data:
-  	+ https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-
-	+ SpaceNet[https://spacenetchallenge.github.io/]
-
-## Video segmentation
-
-  + https://github.com/shelhamer/clockwork-fcn
-  + https://github.com/JingchunCheng/Seg-with-SPN
-
-## Autonomous driving
-
-  + https://github.com/MarvinTeichmann/MultiNet
-  + https://github.com/MarvinTeichmann/KittiSeg
-  + https://github.com/vxy10/p5_VehicleDetection_Unet [Keras]
-  + https://github.com/ndrplz/self-driving-car
-  + https://github.com/mvirgo/MLND-Capstone
-  + https://github.com/zhujun98/semantic_segmentation/tree/master/fcn8s_road
-
-## Annotation Tools:
-
-  + https://github.com/AKSHAYUBHAT/ImageSegmentation
-  + https://github.com/kyamagu/js-segment-annotator
-  + https://github.com/CSAILVision/LabelMeAnnotationTool
-  + https://github.com/seanbell/opensurfaces-segmentation-ui
-  + https://github.com/lzx1413/labelImgPlus
-  + https://github.com/wkentaro/labelme
-	
 ## To look at
-  + https://github.com/tangzhenyu/SemanticSegmentation_DL
   + https://github.com/fchollet/keras/issues/6538
   + https://github.com/warmspringwinds/tensorflow_notes
-  + https://github.com/meetshah1995/pytorch-semseg
   + https://github.com/kjw0612/awesome-deep-vision#semantic-segmentation
   + https://github.com/desimone/segmentation-models
-  + https://github.com/mrgloom/Semantic-Segmentation-Evaluation/issues/1
   + https://github.com/nightrome/really-awesome-semantic-segmentation
   + https://github.com/kjw0612/awesome-deep-vision#semantic-segmentation
   + http://www.it-caesar.com/list-of-contemporary-semantic-segmentation-datasets/
@@ -354,4 +381,5 @@ https://github.com/NVIDIA/pix2pixHD
   + https://devblogs.nvidia.com/parallelforall/image-segmentation-using-digits-5/
   + https://github.com/NVIDIA/DIGITS/tree/master/examples/binary-segmentation
   + https://github.com/NVIDIA/DIGITS/tree/master/examples/semantic-segmentation
+  + http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review
 
